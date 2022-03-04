@@ -12,4 +12,9 @@ describe("example test suite", () => {
 
         expect(num).toEqual(5);
     });
+    it("unit test 2", () => {
+        const num = 10;
+
+        expect(num).toEqual(10);
+    });
 });
