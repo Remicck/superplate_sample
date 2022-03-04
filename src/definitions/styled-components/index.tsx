@@ -13,7 +13,7 @@ export const ThemeContext = React.createContext({
     toggle: () => undefined,
 });
 
-export const useTheme = () => {
+export const useTheme: any = () => {
     const { theme, toggle } = React.useContext(ThemeContext);
 
     return {
